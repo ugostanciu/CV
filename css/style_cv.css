@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'flames';
+    src: url("../fonts/Blazed.ttf") format("opentype");
+}
+h1{
+    font-family: 'flames', 'Helvetica', sans-serif;
+}
+
+body
+{
+    background-image: url('../images/nasa.png');
+}
