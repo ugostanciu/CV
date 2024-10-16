@@ -1,12 +1,35 @@
 @font-face {
-    font-family: 'flames';
-    src: url("../fonts/Blazed.ttf") format("opentype");
+    font-family: 'titre';
+    src: url("../fonts/MAREGY.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'corps';
+    src: url("../fonts/Altone\ Trial-Regular.ttf") format("opentype");
 }
 h1{
-    font-family: 'flames', 'Helvetica', sans-serif;
+    font-family: 'titre';
+    color :rgba(255, 255, 255, 0.712);
 }
+
+h2{
+    font-family: 'titre';
+    color :rgba(255, 255, 255, 0.712);
+}
+
+ul{
+    font-family: 'corps';
+    color :rgba(255, 255, 255, 0.712);
+}
+
+
 
 body
 {
-    background-image: url('../images/nasa.png');
+    background-image: url(https://jmd.im/black_wallpapers/II/desktop/BLACK_II_desktop.jpg);
+}
+
+all
+{
+    text-align: center;
 }
